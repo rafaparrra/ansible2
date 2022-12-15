@@ -1,2 +1,2 @@
 [redhat]
-192.168.201.37
+192.168.201.37 ansible_user=root
