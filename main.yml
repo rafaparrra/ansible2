@@ -1,7 +1,8 @@
 ---
 # Txt playbook
 
-- hosts: all
+- hosts: redhat
+  become: True
   remote_user: "root"
   tasks:
     # Registrar una variable
